@@ -264,11 +264,13 @@ export default function HomePage() {
               <div className="brand-logo-wrap">
                 <img src="/assets/brands/royal.png" alt="Royal Enfield logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
-              <h3>Royal Enfield</h3>
-              <div className="chips">
-                <span className="chip">Account Handling</span>
-                <span className="chip">Lead Generation Campaigns</span>
-                <span className="chip">Ads</span>
+              <div className="brand-content">
+                <h3>Royal Enfield</h3>
+                <div className="chips">
+                  <span className="chip">Account Handling</span>
+                  <span className="chip">Lead Generation Campaigns</span>
+                  <span className="chip">Ads</span>
+                </div>
               </div>
             </article>
 
@@ -276,11 +278,13 @@ export default function HomePage() {
               <div className="brand-logo-wrap">
                 <img src="/assets/brands/Madras Coffee House.png" alt="Madras Coffee House logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
-              <h3>Madras Coffee House</h3>
-              <div className="chips">
-                <span className="chip">Account &amp; Client Management</span>
-                <span className="chip">Content Creation</span>
-                <span className="chip">Influencer Marketing Campaigns</span>
+              <div className="brand-content">
+                <h3>Madras Coffee House</h3>
+                <div className="chips">
+                  <span className="chip">Account &amp; Client Management</span>
+                  <span className="chip">Content Creation</span>
+                  <span className="chip">Influencer Marketing Campaigns</span>
+                </div>
               </div>
             </article>
 
@@ -288,11 +292,13 @@ export default function HomePage() {
               <div className="brand-logo-wrap">
                 <img src="/assets/brands/gem.png" alt="Gem Hospital logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
-              <h3>Gem Hospital</h3>
-              <div className="chips">
-                <span className="chip">Account &amp; Client Management</span>
-                <span className="chip">Content Creation</span>
-                <span className="chip">Meta Ad Campaigns</span>
+              <div className="brand-content">
+                <h3>Gem Hospital</h3>
+                <div className="chips">
+                  <span className="chip">Account &amp; Client Management</span>
+                  <span className="chip">Content Creation</span>
+                  <span className="chip">Meta Ad Campaigns</span>
+                </div>
               </div>
             </article>
 
@@ -300,10 +306,12 @@ export default function HomePage() {
               <div className="brand-logo-wrap">
                 <img src="/assets/brands/surya.png" alt="Sooriya Hospital logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
-              <h3>Sooriya Hospital</h3>
-              <div className="chips">
-                <span className="chip">Content Planning</span>
-                <span className="chip">Video Production</span>
+              <div className="brand-content">
+                <h3>Sooriya Hospital</h3>
+                <div className="chips">
+                  <span className="chip">Content Planning</span>
+                  <span className="chip">Video Production</span>
+                </div>
               </div>
             </article>
 
@@ -311,11 +319,13 @@ export default function HomePage() {
               <div className="brand-logo-wrap">
                 <img src="/assets/brands/healing.png" alt="Healing Earth logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
-              <h3>Healing Earth</h3>
-              <div className="chips">
-                <span className="chip">Account &amp; Client Management</span>
-                <span className="chip">Content Creation</span>
-                <span className="chip">Lead Generation Campaigns</span>
+              <div className="brand-content">
+                <h3>Healing Earth</h3>
+                <div className="chips">
+                  <span className="chip">Account &amp; Client Management</span>
+                  <span className="chip">Content Creation</span>
+                  <span className="chip">Lead Generation Campaigns</span>
+                </div>
               </div>
             </article>
 
@@ -323,9 +333,11 @@ export default function HomePage() {
               <div className="brand-logo-wrap">
                 <img src="/assets/brands/kice.png" alt="KIC's Ice Cream logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
-              <h3>KIC&apos;s Ice Cream</h3>
-              <div className="chips">
-                <span className="chip">Account &amp; Client Management</span>
+              <div className="brand-content">
+                <h3>KIC&apos;s Ice Cream</h3>
+                <div className="chips">
+                  <span className="chip">Account &amp; Client Management</span>
+                </div>
               </div>
             </article>
 
@@ -333,11 +345,13 @@ export default function HomePage() {
               <div className="brand-logo-wrap">
                 <img src="/assets/brands/Hindustan College.png" alt="Hindustan College logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
-              <h3>Hindustan College, Padur</h3>
-              <div className="chips">
-                <span className="chip">Account Handling</span>
-                <span className="chip">Content Creation</span>
-                <span className="chip">Admission Campaigns</span>
+              <div className="brand-content">
+                <h3>Hindustan College, Padur</h3>
+                <div className="chips">
+                  <span className="chip">Account Handling</span>
+                  <span className="chip">Content Creation</span>
+                  <span className="chip">Admission Campaigns</span>
+                </div>
               </div>
             </article>
 
@@ -345,11 +359,13 @@ export default function HomePage() {
               <div className="brand-logo-wrap">
                 <img src="/assets/brands/srihome.png" alt="SriHome logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
-              <h3>SriHome Homecare Consumables</h3>
-              <div className="chips">
-                <span className="chip">Account Handling</span>
-                <span className="chip">Content Creation</span>
-                <span className="chip">Phone &amp; WhatsApp</span>
+              <div className="brand-content">
+                <h3>SriHome Homecare Consumables</h3>
+                <div className="chips">
+                  <span className="chip">Account Handling</span>
+                  <span className="chip">Content Creation</span>
+                  <span className="chip">Phone &amp; WhatsApp</span>
+                </div>
               </div>
             </article>
 
@@ -357,11 +373,13 @@ export default function HomePage() {
               <div className="brand-logo-wrap" style={{ fontSize: "1.6rem", fontWeight: "800", color: "var(--neon-blue)", opacity: 0.8 }}>
                 +
               </div>
-              <h3>More Brand Work</h3>
-              <div className="chips">
-                <span className="chip">20+ Brands</span>
-                <span className="chip">Cross-Industry</span>
-                <span className="chip">Campaign Execution</span>
+              <div className="brand-content">
+                <h3>More Brand Work</h3>
+                <div className="chips">
+                  <span className="chip">20+ Brands</span>
+                  <span className="chip">Cross-Industry</span>
+                  <span className="chip">Campaign Execution</span>
+                </div>
               </div>
             </article>
           </div>

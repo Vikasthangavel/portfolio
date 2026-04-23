@@ -22,7 +22,6 @@ export default function HomePage() {
             <h1 className="hero-title">
               Hi, I&apos;m <span className="gradient">Jayasurya</span>
             </h1>
-            <p className="hero-sub">Client Portfolio &amp; Services</p>
             <p className="hero-copy">
               I work in marketing, focusing on both strategy and creativity. I&apos;ve worked with different brands across industries,
               managing projects and building campaigns from idea to execution. I&apos;m interested in content and storytelling, and my love
@@ -249,7 +248,6 @@ export default function HomePage() {
         <div className="container">
           <Mesh3D hueOffset={20} size="small" position="top-left" />
           <div className="section-head reveal">
-            <div className="section-label">Client Portfolio &amp; Services</div>
             <h2 className="section-title">
               20+ <em>Brands</em>
             </h2>

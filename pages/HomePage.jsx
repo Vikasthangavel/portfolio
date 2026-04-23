@@ -44,7 +44,7 @@ export default function HomePage() {
               <span className="profile-chip chip-one" aria-hidden="true">Visual Storyteller</span>
               <span className="profile-chip chip-two" aria-hidden="true">Brand Creative</span>
               <div className="profile-frame">
-                <img className="profile-image" src="assets/profile.png" alt="Jayasurya profile" loading="eager" decoding="async" />
+                <img className="profile-image" src="/assets/profile.png" alt="Jayasurya profile" loading="eager" decoding="async" />
               </div>
             </div>
             <div className="stats-grid">
@@ -216,27 +216,27 @@ export default function HomePage() {
           </div>
           <div className="tool-grid reveal">
             <div className="tool-pill">
-              <img src="assets/tools/meta.png" alt="Meta Ads logo" loading="lazy" decoding="async" />
+              <img src="/assets/tools/meta.png" alt="Meta Ads logo" loading="lazy" decoding="async" />
               <span>Meta Ads</span>
             </div>
             <div className="tool-pill">
-              <img src="assets/tools/canva.png" alt="Canva logo" loading="lazy" decoding="async" />
+              <img src="/assets/tools/canva.png" alt="Canva logo" loading="lazy" decoding="async" />
               <span>Canva</span>
             </div>
             <div className="tool-pill">
-              <img src="assets/tools/chatgpt.png" alt="ChatGPT logo" loading="lazy" decoding="async" />
+              <img src="/assets/tools/chatgpt.png" alt="ChatGPT logo" loading="lazy" decoding="async" />
               <span>ChatGPT</span>
             </div>
             <div className="tool-pill">
-              <img src="assets/tools/gemini.png" alt="Gemini logo" loading="lazy" decoding="async" />
+              <img src="/assets/tools/gemini.png" alt="Gemini logo" loading="lazy" decoding="async" />
               <span>Gemini</span>
             </div>
             <div className="tool-pill">
-              <img src="assets/tools/cladue.png" alt="Claude logo" loading="lazy" decoding="async" />
+              <img src="/assets/tools/cladue.png" alt="Claude logo" loading="lazy" decoding="async" />
               <span>Claude</span>
             </div>
             <div className="tool-pill">
-              <img src="assets/tools/flied.png" alt="Higgsfield logo" loading="lazy" decoding="async" />
+              <img src="/assets/tools/flied.png" alt="Higgsfield logo" loading="lazy" decoding="async" />
               <span>Higgsfield</span>
             </div>
           </div>

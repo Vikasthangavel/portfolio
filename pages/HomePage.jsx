@@ -36,6 +36,16 @@ export default function HomePage() {
                 Instagram
               </a>
             </div>
+
+            <div className="contact-card reveal delay-1" style={{ marginTop: "1.5rem" }}>
+              <div className="contact-icon">⚡</div>
+              <div>
+                <div className="contact-label">Focus</div>
+                <div className="contact-value">
+                  Account handling, content creation, campaign planning, and storytelling execution.
+                </div>
+              </div>
+            </div>
           </div>
 
           <aside className="hero-right reveal delay-1 home-3d-zone">
@@ -129,7 +139,7 @@ export default function HomePage() {
 
       <div className="divider"></div>
 
-      <section id="experience">
+      {/* <section id="experience">
         <div className="container">
           <Mesh3D hueOffset={280} size="small" position="bottom-left" />
           <div className="section-head reveal">
@@ -165,8 +175,7 @@ export default function HomePage() {
             </article>
           </div>
         </div>
-      </section>
-
+      </section> */}
       <div className="divider"></div>
 
       <section id="skills">
@@ -252,6 +261,9 @@ export default function HomePage() {
 
           <div className="brand-grid">
             <article className="brand-card highlight reveal">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/royal.png" alt="Royal Enfield logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
               <h3>Royal Enfield</h3>
               <div className="chips">
                 <span className="chip">Account Handling</span>
@@ -261,6 +273,9 @@ export default function HomePage() {
             </article>
 
             <article className="brand-card reveal delay-1">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/Madras Coffee House.png" alt="Madras Coffee House logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
               <h3>Madras Coffee House</h3>
               <div className="chips">
                 <span className="chip">Account &amp; Client Management</span>
@@ -270,6 +285,9 @@ export default function HomePage() {
             </article>
 
             <article className="brand-card reveal delay-2">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/gem.png" alt="Gem Hospital logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
               <h3>Gem Hospital</h3>
               <div className="chips">
                 <span className="chip">Account &amp; Client Management</span>
@@ -279,6 +297,9 @@ export default function HomePage() {
             </article>
 
             <article className="brand-card reveal">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/surya.png" alt="Sooriya Hospital logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
               <h3>Sooriya Hospital</h3>
               <div className="chips">
                 <span className="chip">Content Planning</span>
@@ -287,6 +308,9 @@ export default function HomePage() {
             </article>
 
             <article className="brand-card reveal delay-1">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/healing.png" alt="Healing Earth logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
               <h3>Healing Earth</h3>
               <div className="chips">
                 <span className="chip">Account &amp; Client Management</span>
@@ -296,6 +320,9 @@ export default function HomePage() {
             </article>
 
             <article className="brand-card reveal delay-2">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/kice.png" alt="KIC's Ice Cream logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
               <h3>KIC&apos;s Ice Cream</h3>
               <div className="chips">
                 <span className="chip">Account &amp; Client Management</span>
@@ -303,6 +330,9 @@ export default function HomePage() {
             </article>
 
             <article className="brand-card reveal">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/Hindustan College.png" alt="Hindustan College logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
               <h3>Hindustan College, Padur</h3>
               <div className="chips">
                 <span className="chip">Account Handling</span>
@@ -312,6 +342,9 @@ export default function HomePage() {
             </article>
 
             <article className="brand-card reveal delay-1">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/srihome.png" alt="SriHome logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
               <h3>SriHome Homecare Consumables</h3>
               <div className="chips">
                 <span className="chip">Account Handling</span>
@@ -321,6 +354,9 @@ export default function HomePage() {
             </article>
 
             <article className="brand-card reveal delay-2">
+              <div className="brand-logo-wrap" style={{ fontSize: "1.6rem", fontWeight: "800", color: "var(--neon-blue)", opacity: 0.8 }}>
+                +
+              </div>
               <h3>More Brand Work</h3>
               <div className="chips">
                 <span className="chip">20+ Brands</span>
@@ -373,25 +409,37 @@ export default function HomePage() {
 
       <section id="approach">
         <div className="container">
-          <Mesh3D hueOffset={290} size="small" position="top-right" />
+          <Mesh3D hueOffset={280} size="small" position="bottom-left" />
           <div className="section-head reveal">
-            <div className="section-label">Approach</div>
+            <div className="section-label">Experience</div>
             <h2 className="section-title">
-              My Work <em>Approach.</em>
+              What I <em>do.</em>
             </h2>
+            <p className="section-copy">
+              Hands-on delivery across account handling, campaign planning, production coordination, and performance execution.
+            </p>
           </div>
-          <div className="approach-grid">
-            <article className="approach-card reveal">
-              <div className="approach-num">01 Understanding the Brand</div>
-              <p>I understand what the brand stands for, who it is for, and what it wants to achieve.</p>
+          <div className="stack-grid">
+            <article className="exp-card reveal">
+              <h3>Client Management</h3>
+              <p>Managed client communication, expectation setting, and day-to-day execution alignment across industries.</p>
+              <div style={{ marginTop: "0.7rem" }}>
+                <span className="tag">Account Handling</span>
+              </div>
             </article>
-            <article className="approach-card reveal delay-1">
-              <div className="approach-num">02 Planning</div>
-              <p>I create a plan based on the brand&apos;s goals and what it needs to grow.</p>
+            <article className="exp-card reveal delay-1">
+              <h3>Campaign Planning</h3>
+              <p>Built campaign structures from objective mapping to rollout, with clear milestone tracking and delivery ownership.</p>
+              <div style={{ marginTop: "0.7rem" }}>
+                <span className="tag">Planning</span>
+              </div>
             </article>
-            <article className="approach-card reveal delay-2">
-              <div className="approach-num">03 Execution</div>
-              <p>I put the plan into action and make sure everything runs smoothly.</p>
+            <article className="exp-card reveal delay-2">
+              <h3>Execution &amp; Optimization</h3>
+              <p>Executed campaign assets, ad workflows, and content pipelines while optimizing performance for better outcomes.</p>
+              <div style={{ marginTop: "0.7rem" }}>
+                <span className="tag">Execution</span>
+              </div>
             </article>
           </div>
         </div>
@@ -518,15 +566,13 @@ export default function HomePage() {
               </div>
             </a>
 
-            <div className="contact-card reveal delay-1">
-              <div className="contact-icon">⚡</div>
+            <a className="contact-card reveal delay-1" href="https://wa.me/918072048389" target="_blank" rel="noreferrer">
+              <div className="contact-icon">WA</div>
               <div>
-                <div className="contact-label">Focus</div>
-                <div className="contact-value">
-                  Account handling, content creation, campaign planning, and storytelling execution.
-                </div>
+                <div className="contact-label">WhatsApp</div>
+                <div className="contact-value">+91 80720 48389</div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </section>

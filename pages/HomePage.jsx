@@ -52,16 +52,12 @@ export default function HomePage() {
                 <span>Brands</span>
               </div>
               <div className="stat">
-                <AnimatedCount target={360} suffix="°" />
-                <span>Campaign Work</span>
+                <strong>3+</strong>
+                <span>Years of Experience</span>
               </div>
               <div className="stat">
-                <strong>Ads</strong>
-                <span>Lead Generation</span>
-              </div>
-              <div className="stat">
-                <strong>Content</strong>
-                <span>Planning &amp; Video</span>
+                <strong>&#x221E;</strong>
+                <span>Creative Idea</span>
               </div>
             </div>
           </aside>

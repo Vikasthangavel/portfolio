@@ -262,14 +262,48 @@ export default function HomePage() {
           <div className="brand-grid">
             <article className="brand-card highlight reveal">
               <div className="brand-logo-wrap">
+                <img src="/assets/brands/Tata-Motors.jpg" alt="Tata Motors logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
+              <div className="brand-content">
+                <h3>Tata Motors</h3>
+                <div className="chips">
+                  <span className="chip">Lead Generation Campaigns</span>
+                </div>
+              </div>
+            </article>
+
+            <article className="brand-card reveal delay-1">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/TMB.jpg" alt="Tamilnad Mercantile Bank logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
+              <div className="brand-content">
+                <h3>Tamilnad Mercantile Bank</h3>
+                <div className="chips">
+                  <span className="chip">Digital &amp; Traditional Campaigns</span>
+                </div>
+              </div>
+            </article>
+
+            <article className="brand-card reveal delay-2">
+              <div className="brand-logo-wrap">
+                <img src="/assets/brands/ashok-leyland.png" alt="Ashok Leyland logo" className="brand-logo" loading="lazy" decoding="async" />
+              </div>
+              <div className="brand-content">
+                <h3>Ashok Leyland</h3>
+                <div className="chips">
+                  <span className="chip">Lead Campaigns</span>
+                </div>
+              </div>
+            </article>
+
+            <article className="brand-card reveal">
+              <div className="brand-logo-wrap">
                 <img src="/assets/brands/royal.png" alt="Royal Enfield logo" className="brand-logo" loading="lazy" decoding="async" />
               </div>
               <div className="brand-content">
                 <h3>Royal Enfield</h3>
                 <div className="chips">
-                  <span className="chip">Account Handling</span>
-                  <span className="chip">Lead Generation Campaigns</span>
-                  <span className="chip">Ads</span>
+                  <span className="chip">Social Media &amp; Ads</span>
                 </div>
               </div>
             </article>

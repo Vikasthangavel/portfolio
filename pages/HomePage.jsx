@@ -139,44 +139,7 @@ export default function HomePage() {
 
       <div className="divider"></div>
 
-      {/* <section id="experience">
-        <div className="container">
-          <Mesh3D hueOffset={280} size="small" position="bottom-left" />
-          <div className="section-head reveal">
-            <div className="section-label">Experience</div>
-            <h2 className="section-title">
-              What I <em>do.</em>
-            </h2>
-            <p className="section-copy">
-              Hands-on delivery across account handling, campaign planning, production coordination, and performance execution.
-            </p>
-          </div>
-          <div className="stack-grid">
-            <article className="exp-card reveal">
-              <h3>Client Management</h3>
-              <p>Managed client communication, expectation setting, and day-to-day execution alignment across industries.</p>
-              <div style={{ marginTop: "0.7rem" }}>
-                <span className="tag">Account Handling</span>
-              </div>
-            </article>
-            <article className="exp-card reveal delay-1">
-              <h3>Campaign Planning</h3>
-              <p>Built campaign structures from objective mapping to rollout, with clear milestone tracking and delivery ownership.</p>
-              <div style={{ marginTop: "0.7rem" }}>
-                <span className="tag">Planning</span>
-              </div>
-            </article>
-            <article className="exp-card reveal delay-2">
-              <h3>Execution &amp; Optimization</h3>
-              <p>Executed campaign assets, ad workflows, and content pipelines while optimizing performance for better outcomes.</p>
-              <div style={{ marginTop: "0.7rem" }}>
-                <span className="tag">Execution</span>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section> */}
-      <div className="divider"></div>
+
 
       <section id="skills">
         <div className="container">
@@ -459,39 +422,31 @@ export default function HomePage() {
 
       <div className="divider"></div>
 
-      <section id="approach">
+      <section id="strengths">
         <div className="container">
-          <Mesh3D hueOffset={280} size="small" position="bottom-left" />
+          <Mesh3D hueOffset={355} size="small" position="top-left" />
           <div className="section-head reveal">
-            <div className="section-label">Experience</div>
+            <div className="section-label">Strengths</div>
             <h2 className="section-title">
-              What I <em>do.</em>
+              Personal <em>Strengths.</em>
             </h2>
-            <p className="section-copy">
-              Hands-on delivery across account handling, campaign planning, production coordination, and performance execution.
-            </p>
           </div>
-          <div className="stack-grid">
-            <article className="exp-card reveal">
-              <h3>Client Management</h3>
-              <p>Managed client communication, expectation setting, and day-to-day execution alignment across industries.</p>
-              <div style={{ marginTop: "0.7rem" }}>
-                <span className="tag">Account Handling</span>
-              </div>
+          <div className="strength-grid">
+            <article className="strength-card reveal">
+              <h3>Quick Learner</h3>
+              <p>Learns fast and adapts to new tools and trends.</p>
             </article>
-            <article className="exp-card reveal delay-1">
-              <h3>Campaign Planning</h3>
-              <p>Built campaign structures from objective mapping to rollout, with clear milestone tracking and delivery ownership.</p>
-              <div style={{ marginTop: "0.7rem" }}>
-                <span className="tag">Planning</span>
-              </div>
+            <article className="strength-card reveal delay-1">
+              <h3>Team Player</h3>
+              <p>Works well with teams and builds strong collaboration.</p>
             </article>
-            <article className="exp-card reveal delay-2">
-              <h3>Execution &amp; Optimization</h3>
-              <p>Executed campaign assets, ad workflows, and content pipelines while optimizing performance for better outcomes.</p>
-              <div style={{ marginTop: "0.7rem" }}>
-                <span className="tag">Execution</span>
-              </div>
+            <article className="strength-card reveal delay-2">
+              <h3>Adaptable</h3>
+              <p>Handles change smoothly and stays flexible.</p>
+            </article>
+            <article className="strength-card reveal">
+              <h3>Accountable</h3>
+              <p>Takes ownership and delivers results on time.</p>
             </article>
           </div>
         </div>
@@ -548,37 +503,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      <div className="divider"></div>
-
-      <section id="strengths">
-        <div className="container">
-          <Mesh3D hueOffset={355} size="small" position="top-left" />
-          <div className="section-head reveal">
-            <div className="section-label">Strengths</div>
-            <h2 className="section-title">
-              Personal <em>Strengths.</em>
-            </h2>
-          </div>
-          <div className="strength-grid">
-            <article className="strength-card reveal">
-              <h3>Quick Learner</h3>
-              <p>Learns fast and adapts to new tools and trends.</p>
-            </article>
-            <article className="strength-card reveal delay-1">
-              <h3>Team Player</h3>
-              <p>Works well with teams and builds strong collaboration.</p>
-            </article>
-            <article className="strength-card reveal delay-2">
-              <h3>Adaptable</h3>
-              <p>Handles change smoothly and stays flexible.</p>
-            </article>
-            <article className="strength-card reveal">
-              <h3>Accountable</h3>
-              <p>Takes ownership and delivers results on time.</p>
-            </article>
-          </div>
-        </div>
-      </section>
 
       <div className="divider"></div>
 
